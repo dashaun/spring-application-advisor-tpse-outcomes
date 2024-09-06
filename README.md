@@ -5,9 +5,11 @@ In general there a three outcomes of continous migrations with Tanzu Spring:
 - Security and compliance
 - Developer productivity and satisfaction
 
+---
+
 ## Infrastructure Savings
 
-Application with 20gb memory reserve per container, down to 2gb memory reserve per container, hundreds of instances worldwide
+Application with 20gb memory reserve per container, down to 2gb memory reserve per container, hundreds of instances worldwide (Software/SaaS)
 - Original startup time was 20s, new startup time was 27s, but the savings from memory was more valuable
 - Yes, it was a slower startup.  They were trying to get a faster startup, but the improved memory usage became the winner.
 
@@ -15,10 +17,12 @@ Cloud Foundry Diego Cells (Retail)
 - By upgrading to newer versions of Java and Spring Boot, organization was able to reduce the number of Diego Cells (Virtual Machines) needed across all foundations
 - A Diego Cell in Cloud Foundry is conceptually similar to a worker node in Kubernetes (GKE)
 
-Outcomes:
+**Outcomes**:
 - Reduced Image Size -> Reduced Ingress/Egress costs, Reduced Storage costs
 - Reduced Memory Footprint -> Reduced compute costs
-  
+
+---
+
 ## Compliance
 
 Replacing unsupported Frameworks (Auto)
@@ -39,10 +43,12 @@ Governance Starter (FIPS/PCI)
 - Developed based on customer feedback
 - Allows move from manual, spreadsheet based attestation to automated validation, via actuator endpoints
 
-Outcomes:
+**Outcomes**:
 - Reduced cost of compliance project implementations
 - Decreased time to delivery of patches, and reduced effort
 - Automation reducing exposure, continously
+
+---
 
 ## Delivery
 
@@ -59,6 +65,6 @@ Developer Enablement and Excitement (Finance)
 - Increased developer satisfaction
 - Improved engineering recruitment
 
-Outcomes:
+**Outcomes**:
 - Improved revenue per developer
 - Ability to recruit world class engineering talent
